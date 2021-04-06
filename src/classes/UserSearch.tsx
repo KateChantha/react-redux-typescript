@@ -6,7 +6,7 @@ interface User {
 }
 
 interface UserSeachProps {
-  // arraof object
+  // array of object
   users: User[]
 }
 

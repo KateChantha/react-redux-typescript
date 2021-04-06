@@ -1,6 +1,7 @@
 import ReactDom from 'react-dom';
 import GuestList from './practice_state/GuestList'
 import UserSearch from './practice_state/UserSearch';
+import UsetSearchRef from './refs/UserSearchRef';
 import EventComponent from './events/EventComponent';
 
 export const App = () => {
@@ -9,6 +10,7 @@ export const App = () => {
       <GuestList />
       <UserSearch />
       <EventComponent />
+      <UsetSearchRef />
     </div>
   )
 };
